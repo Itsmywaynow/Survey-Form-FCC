@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.page {
+    padding-top: 50px;
+    font-size: 20px;
+    background: linear-gradient(to right, rgba(184, 203, 184, 0.5) 0%, rgba(184, 203, 184, 0.5) 0%, rgba(180, 101, 218, 0.5) 0%, rgba(208, 109, 201, 0.5) 33%, rgba(238, 96, 156, 0.5) 66%, rgba(238, 96, 156, 0.5) 100%), url("../../assets/img/background-2.jpg") 0 0/cover no-repeat;
+    color: #021c64;
+}
+
+.heading-block {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 15px;
+    background-color: rgba(51, 51, 51, 0.3);
+    border-radius: 3px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    margin-bottom: 15px;
+}
+
+.input-group input, .input-group select {
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.input-group input::-moz-placeholder, .input-group select::-moz-placeholder {
+    font-family: inherit;
+}
+
+.input-group input:-ms-input-placeholder, .input-group select:-ms-input-placeholder {
+    font-family: inherit;
+}
+
+.input-group input::placeholder, .input-group select::placeholder {
+    font-family: inherit;
+}
+
+.input-group input[type=checkbox] {
+    margin-right: 20px;
+}
+
+.textarea {
+    font-family: inherit;
+    padding: 10px;
+    margin: 0 auto 20px;
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+p {
+    text-align: center;
+}
+
+.btn {
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+    background: #81084f;
+    border: none;
+    border-radius: 5px;
+    transition: all .2s linear;
+}
+
+.btn:hover {
+    background: #510532;
+}
+
+/* Blocks */
+/* Vendor */
